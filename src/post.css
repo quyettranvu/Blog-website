@@ -1,0 +1,59 @@
+.post {
+    width: 385px;
+    margin: 20px 25px 40px 25px;
+    display: flex;
+    flex-direction: column;
+    float:left;
+  }
+  
+.postImg {
+    width: 385px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.postCat {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: orange;
+    line-height: 19px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+  
+.postTitle {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postTitle :hover{
+      text-decoration:underline;
+      color:green;
+}
+  
+.postDesc {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+    border: 5px solid green;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*3 dòng này là để set up "còn nữa"*/
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

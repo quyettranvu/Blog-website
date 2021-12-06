@@ -1,0 +1,28 @@
+.topImg{
+    margin-left:360px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.navbar-nav > li{
+    padding-right:100px;
+  }
+
+  .btn{
+    width:100px;
+}
+
+.searchIcon{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+.navbar-nav{
+    padding-left:250px;
+}
+

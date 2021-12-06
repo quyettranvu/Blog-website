@@ -1,0 +1,62 @@
+
+.BgBehind{
+    background-image: url('./3556468-beautiful-big-white-clouds-in-front-of-blue-sky-background.jpg');
+    position: absolute;
+    width:85%;
+}
+
+.sidebar{
+    margin-right:20px;
+    --offset: var(--space);
+    /* ... */
+    position: sticky;
+    top: var(--offset);
+}
+
+.sidebarItem {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    margin-top:10px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /*Ý nghĩa của dòng này là giúp hiển thị theo cột*/
+    align-items: center;
+    width:30%;
+    float:up; /*Có thể sử dụng thuộc tính up-down cho thành phần float*/
+  }
+
+.sidebarImage{
+    width:200px;
+    height:200px;
+}
+
+.sidebarTitle_below{
+    margin-top:20px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+}
+
+.sidebarItem > i{
+    font-size:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+}
+
+
+.footersection{
+    margin-right:10px;
+    border-radius: 5px;
+}
+
+.footerheader{
+    background-color:lightskyblue;
+}

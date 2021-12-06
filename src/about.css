@@ -1,0 +1,52 @@
+.BgAboutMe{
+    background-image: url('./73195759-beautiful-sea-with-mountains-in-nha-trang-vietnam-nha-trang-is-a-coastal-city-and-capital-of-khanh-h.jpg');
+    position: absolute;
+    width:84.5%;
+}
+
+.AboutMeImage{
+    width:500px;
+    height:500px;
+    margin-top:10px;
+    margin-left:20px;
+    float:left;
+}
+
+.InformationAboutMe{
+    border-radius:10px;
+    width: 700px;
+    height: 400px;
+    background-image:url('./cherry-blossom-frame-card_53876-93702.jpg');
+    float:right;
+    margin:50px 30px 20px 30px;
+}
+
+.MyNameAboutMe{
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top:70px;
+    padding-right:40%;
+    color:orange;
+    display:inline-block; /*Một lưu ý là inline không có height nên mình ko chỉnh margin và paddig được-phải đưa về inline-block*/
+}
+
+.MyBirthdayAboutMe{
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top:5px;
+    padding-right:30%;
+    color:orange;
+    display:inline-block;
+}
+
+.MyInformationAboutMe{
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:orange;
+    display:inline-block;
+    padding-left:35px;
+    padding-right:100px;
+}

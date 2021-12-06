@@ -1,0 +1,35 @@
+.BlogImage {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    float:left;
+    margin-top:25px;
+    margin-left:20px;
+}
+
+.BlogContent{
+    border-radius:10px;
+    width: 800px;
+    height: 390px;
+    background-image:url('./stock-photo-beautiful-background-design-are-write-any-text-and-romantic-video-background-use-1402287023.jpg');
+    float:right;
+    margin-top:20px;
+    margin-right:20px;
+    align-items: center;
+    padding-top:150px;
+    font-family: "Garamond", Arial, Helvetica, serif;
+    font-size:20px;
+    border:2px solid greenyellow;
+    text-shadow: 2px 2px 10px #cc0000;
+}
+
+.SearchBar{
+    margin-left:60%;
+    margin-top: -75px;
+}
+
+.SearchBar >i{
+    margin-left:20px;
+}
